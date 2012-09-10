@@ -19,4 +19,11 @@ url = ['http://srvpanel.com/data-cleanup.php?data=',dataurl];
 filename = 'rural_day.csv';
 urlwrite(url,filename);
 disp('Solar Data Imported from ASU CM:')
-data = importdata(filename)
+data = importdata(filename)data = importdata(filename)
+
+% Part 1: mathematical computations
+
+ComputationAnswer1 = (32/16)+4
+ComputationAnswer2 = (2^4)-5
+ComputationAnswer3 = 2+(exp(1)*2)
+ComputationAnswer4 = sin(pi/4)-cos(pi/4)
