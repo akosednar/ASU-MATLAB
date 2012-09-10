@@ -20,6 +20,7 @@ filename = 'rural_day.csv';
 urlwrite(url,filename);
 disp('Solar Data Imported from ASU CM:')
 data = importdata(filename)data = importdata(filename)
+data = importdata(filename)
 
 % Part 1: mathematical computations
 
