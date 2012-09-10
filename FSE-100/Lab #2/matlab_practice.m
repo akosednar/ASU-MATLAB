@@ -18,4 +18,5 @@ dataurl = 'http://cm.asu.edu/csv/WS-Download-9102012-8130.csv';
 url = ['http://srvpanel.com/data-cleanup.php?data=',dataurl];
 filename = 'rural_day.csv';
 urlwrite(url,filename);
+disp('Solar Data Imported from ASU CM:')
 data = importdata(filename)
