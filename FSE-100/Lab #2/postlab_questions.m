@@ -5,11 +5,11 @@
 % Define Variables
 x = linspace(0,2*pi,100);
 g = x;
-y = sin(2*x);
-h = 2*cos(2*z);
+f = sin(2*x);
+g = 2*cos(2*x);
 
 % Do Our Plotting
-plot(x,y,'c:+',g,h,'g--*')
+plot(x,f,'c:+',x,g,'g--*')
 
 % Create our labels
 title('Plot of f(x)=sin(2x) and its derivative.')
