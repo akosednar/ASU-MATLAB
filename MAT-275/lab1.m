@@ -47,5 +47,7 @@ ex5
 % #6 
 f_anon = @(x,y) x.^3+(y.*exp(x))/(x+1);
 f_anon(2,-1)
-%clear 
+
+% Note: the lab instructions ask us to clear the windows before this next function call
+clear 
 f(2,-1)

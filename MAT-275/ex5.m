@@ -15,7 +15,7 @@ function ex5
 	title('Solutions to dy/dx = x+2')
 	hleg = legend('C=-1','C=0','C=1');
 	set(hleg,'Location','NorthWest')
-    set(hleg,'Interpreter','none')
+    	set(hleg,'Interpreter','none')
 	hold off
 
 end
